@@ -47,7 +47,7 @@ const Header = () => {
               </Link>
               <button
                 onClick={() => {
-                  toggleRole()
+                  // toggleRole()
                   setMenuOpen(false)
                 }}
                 className="hover:text-orange-400 p-2 w-full text-left"

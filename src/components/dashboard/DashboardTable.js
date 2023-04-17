@@ -5,7 +5,7 @@ import { useSessions } from "../../context/session-context"
 
 const DashboardTable = () => {
   const { sessions, meetings } = useSessions()
-  // const allData = [...meetings, ...sessions]
+  const allData = [...meetings, ...sessions]
   if (sessions.length === 0 && meetings.length === 0) {
     return (
       <div className="w-full px-16 py-24 bg-gray-900 rounded flex flex-col items-center justify-center">
