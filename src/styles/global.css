@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-white;
+}
+
+main {
+  min-height: calc(100vh - 130px);
+}
+
+.btn-primary {
+  @apply bg-orange-400 text-white px-2 py-1 rounded;
+}
+
+.btn-secondary {
+  @apply bg-gray-50 text-gray-900 border px-2 py-1 rounded;
+}
+
+.react-flow__node {
+  @apply text-4xl px-6 py-6 bg-gray-700 text-white border-none rounded-lg shadow-xl !important;
+  width: unset !important;
+}
+
+.react-flow__edge-textbg {
+  @apply fill-current text-gray-800 !important;
+}
+
+.react-flow__edge-text {
+  @apply fill-current text-white uppercase text-lg !important;
+}
+
+.skew-3d {
+  transform: translate3d(20px, -20px, 20px);
+}
+
+/*
+ * Set up the keyframes to actually describe the begining and end states of 
+ * the animation.  The browser will interpolate all the frames between these 
+ * points.  Again, remember your vendor-specific prefixes for now!
+ */
+@-webkit-keyframes myOrbit {
+  from {
+    -webkit-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@-moz-keyframes myOrbit {
+  from {
+    -moz-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@-o-keyframes myOrbit {
+  from {
+    -o-transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    -o-transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
+
+@keyframes myOrbit {
+  from {
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(150px) rotate(-360deg);
+  }
+}
