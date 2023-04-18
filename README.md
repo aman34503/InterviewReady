@@ -1,21 +1,3 @@
-# 🥪 InterviewToast
-
-Made by Yannis Panagis & Sam-Larsen Disney for the Hack for the [DeveloperWeek 2022 Hackathon](https://developerweek-2022-hackathon.devpost.com/)
-
-## ⚡️ Quick Links:
-
-- [Try the site](https://interviewtoast.com) (Best if you try with a friend!)
-- [Github Repo](https://github.com/yp717/interviewtoast)
-
-🔨 Made By:
-- [yannispanagis.com](https://yannispanagis.com/)
-- [sld.codes](https://sld.codes/)
-
-In this hackathon, we wrote _exactly_ 3628 lines of code and made 146 commits over the three weeks. We're hoping this is our new lucky number!
-
-## Introduction
-
-Whether you're a an applicant or an interviewer - interviews suck. Powered by AI, Interview Toast gives you everything you need to make your next interview a more positive experience. **Don't burn your next interview**.
 
 ## 🤩 What it does
 
