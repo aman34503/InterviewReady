@@ -1,7 +1,7 @@
 
 ## 🤩 What it does
 
-InterviewToast is an interview preparation, feedback and assessment tool that ensures that at your next interview, you won't be toast.
+InterviewReady is an interview preparation, feedback and assessment tool that ensures that at your next interview, you won't be toast.
 
 1. **Interview Preparation Tool** There are a lot of great tools out there to help you prepare for the coding part of the application process. However, a lot of the interviews in the process to get any new job aren't just about code and there aren't a lot of tools out there specifically designed to help you with this part of the process. By leveraging [Symbl](https://symbl.ai/)'s conversation intelligence AI in our video application, InterviewToast goes beyond simple speech-to-text and provides real time insights and extracts topics of discussion, sentiment and conversation analytics such as talk-to-listen ratios.
 
@@ -91,9 +91,7 @@ Sam:
 - Posture recognition only occurs on practise interviews on not on live sessions.
 - We wanted to use the summary API but it was unfortunately not available for use outside of async. Looking forward to it being out of beta!
 
-## What's next for [InterviewToast](https://interviewtoast.com)
-
-Although this hackathon took place over two weeks, there were still a lot of features that we would have loved to implement that we did not have time for. The following is a list of some of the extensions we would like to implement next:
+##### The following is a list of some of the extensions we would like to implement next:
 
 - **Stripe Integration**: We can't monetise the site without integrating a payment API! 
 - **Pre-call Tests for Audio and Video**: Verify whether the internet quality is good enough for the interview.
